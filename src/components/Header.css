@@ -1,0 +1,29 @@
+/* src/components/Header.css */
+.custom-navbar {
+  background-color: #fff8e1; /* Light yellow background */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px; /* Rounded edges */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Space between links */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.nav-item:hover {
+  color: #ff7043; /* Optional: Change color on hover */
+}
