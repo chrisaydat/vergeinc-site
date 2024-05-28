@@ -10,8 +10,8 @@ const Hero = () => {
         <h1>Verge</h1>
         <p>I am not an expert and i do not need to be.</p>
         <div className="hero-buttons">
-          <button className="hero-button">Learn more</button>
-          <button className="hero-button">Join Waitlist</button>
+        <a href="https://www.linkedin.com/company/verge-fintech/" className="hero-button">Learn more</a>
+        <a href="https://2c06dnupxht.typeform.com/to/ZJdIB2Gz" className="hero-button">Join Waitlist</a>
         </div>
       </div>
     </section>
